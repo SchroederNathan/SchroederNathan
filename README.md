@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<a href="www.linkedin.com/in/nathan-schroeder-a40aa2210"> <img src="https://img.shields.io/badge/LinkedIn-0967c1?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="linkedIn"/></a>
+<a href="https://www.linkedin.com/in/nathan-schroeder-a40aa2210" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0967c1?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="linkedIn"/></a>
 
 
 <h2> 🚀 &nbsp;Some Tools I Have Used and Learned</h2>
@@ -21,5 +21,4 @@
 
 </div>
 </p>
-
 
