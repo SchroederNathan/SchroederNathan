@@ -16,8 +16,8 @@
 <p float="left">
 <h2> 📊 &nbsp;Stats</h2>
 <div style="display: flex; flex-direction: row;">
- <img style="height: 250px;"  class="img" src="https://stats.quine.sh/SchroederNathan/topics-over-time?theme=dark" />
-   <img style="height: 250px;"  class="img" src="https://stats.quine.sh/SchroederNathan/languages-over-time?theme=dark" />
+ <img style="height: 220px; "  class="img" src="https://stats.quine.sh/SchroederNathan/topics-over-time?theme=dark" />
+   <img style="height: 220px; "  class="img" src="https://stats.quine.sh/SchroederNathan/languages-over-time?theme=dark" />
 
 </div>
 </p>
