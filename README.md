@@ -13,12 +13,5 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="typeScript" width="45" height="45"/>
 
 </p>
-<p float="left">
-<h2> 📊 &nbsp;Stats</h2>
-<div style="display: flex; flex-direction: row;">
- <img style="height: 220px; "  class="img" src="https://stats.quine.sh/SchroederNathan/topics-over-time?theme=dark" />
-   <img style="height: 220px; "  class="img" src="https://stats.quine.sh/SchroederNathan/languages-over-time?theme=dark" />
 
-</div>
-</p>
 
