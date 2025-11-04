@@ -1,5 +1,5 @@
-## Hi there 👋
-I'm a Software Dev @ Red Piston passionate about Typescript and UI/UX design! Check out some of my work!
+## Hey 👋
+I'm a Software Dev @ Red Piston big into Typescript and UI/UX design! Check out my work!
 
 ## 🔗 Links
 - 🌐 Portfolio: [nathanschroeder.dev](https://nathanschroeder.dev)
