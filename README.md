@@ -1,5 +1,5 @@
 ## Hey 👋
-I'm a Software Dev @ Red Piston big into Typescript and UI/UX design! Check out my work!
+I'm a Software Dev big into React Native and UI/UX design! Check out my work!
 
 ## 🔗 Links
 - 🌐 Portfolio: [nathanschroeder.dev](https://nathanschroeder.dev)
