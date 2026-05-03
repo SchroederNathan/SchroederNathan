@@ -1,1 +1,7 @@
-export type LayoutId = "dashboard" | "split" | "magazine";
+export type LayoutId =
+  | "dashboard"
+  | "split"
+  | "magazine"
+  | "holyGrail"
+  | "bento"
+  | "chat";

@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useState, type ComponentType } from "react";
+import { BentoLayout } from "./layouts/BentoLayout";
+import { ChatLayout } from "./layouts/ChatLayout";
 import { DashboardLayout } from "./layouts/DashboardLayout";
-import { SplitLayout } from "./layouts/SplitLayout";
+import { HolyGrailLayout } from "./layouts/HolyGrailLayout";
 import { MagazineLayout } from "./layouts/MagazineLayout";
+import { SplitLayout } from "./layouts/SplitLayout";
 import type { LayoutId } from "./layouts/types";
 import "./App.css";
 
@@ -9,10 +12,23 @@ const LAYOUT_LABELS: Record<LayoutId, string> = {
   dashboard: "Dashboard (grid + sticky sidebar)",
   split: "Split (responsive two-column)",
   magazine: "Magazine (featured + grid)",
+  holyGrail: "Holy grail (nav / main / aside / footer)",
+  bento: "Bento (asymmetric grid)",
+  chat: "Chat (threads + conversation)",
+};
+
+const LAYOUT_COMPONENTS: Record<LayoutId, ComponentType> = {
+  dashboard: DashboardLayout,
+  split: SplitLayout,
+  magazine: MagazineLayout,
+  holyGrail: HolyGrailLayout,
+  bento: BentoLayout,
+  chat: ChatLayout,
 };
 
 export function App() {
   const [layout, setLayout] = useState<LayoutId>("dashboard");
+  const LayoutComponent = LAYOUT_COMPONENTS[layout];
 
   return (
     <div className="app">
@@ -32,9 +48,7 @@ export function App() {
         </nav>
       </header>
       <main className="app-main">
-        {layout === "dashboard" && <DashboardLayout />}
-        {layout === "split" && <SplitLayout />}
-        {layout === "magazine" && <MagazineLayout />}
+        <LayoutComponent />
       </main>
     </div>
   );
